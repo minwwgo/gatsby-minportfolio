@@ -10,7 +10,7 @@ const Home=()=> {
     <Layout>
       <SEO title="Welcome to Min Blog" />
       <Container>
-        <h1>Welcome staging branch hello !</h1>
+        <h1>welcome from staging</h1>
        
           
         
