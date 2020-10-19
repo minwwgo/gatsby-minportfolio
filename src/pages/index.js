@@ -10,7 +10,7 @@ const Home=()=> {
     <Layout>
       <SEO title="Welcome to Min Blog" />
       <Container>
-        <h1>welcome from staging hello </h1>
+        <h1>welcome  staging hello </h1>
         <p>
           Go back <Link to={"/about"}>About</Link>
         </p>
