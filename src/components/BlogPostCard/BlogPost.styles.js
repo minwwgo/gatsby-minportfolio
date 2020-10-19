@@ -20,10 +20,11 @@ export const ImgWrapper = styled.div`
   width: 90vw;
   margin-bottom: 20px;
   margin-top: 20px;
+  padding:20px;
 
   @media screen and (min-width: 768px) {
-    margin: 0 20px 0 0;
-    width: 200px;
+    margin: 0 0 20px 0;
+    width: 250px;
   }
   img {
     border-radius: 10px;

@@ -7,7 +7,7 @@ import Container from "../components/Container"
 import BlogPostCard from "../components/BlogPostCard"
 function Blog({data}) {
   const allPosts = data.allMarkdownRemark.edges
-  
+  console.log(allPosts)
   
   return (
     <Layout>
@@ -25,7 +25,7 @@ function Blog({data}) {
               readingTime={node.fields.readingTime.text}
               excerpt={node.excerpt}
               image={node.frontmatter.postImage.childImageSharp.fluid}
-            />
+              />
           )
         })}
       </Container>
@@ -51,11 +51,12 @@ export const query = graphql`
             date
             postImage {
               childImageSharp {
-                fluid(maxWidth: 200, maxHeight: 200) {
+                fluid(maxWidth: 400, maxHeight: 400) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
+            
           }
           fields {
             readingTime {

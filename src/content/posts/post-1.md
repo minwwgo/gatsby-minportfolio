@@ -1,8 +1,11 @@
 ---
 type: 'post'
-title: 'Lorem sum  post'
+title: 'Job lising App'
 date: '2020-10-14'
 postImage: '../../images/job listing .png'
+
+techImageOne: '../../images/javascript-ar21.svg '
+techImageTwo: '../../images/w3_html5-ar21.svg'
 slug: 'post-1'
 publish: true
 ---

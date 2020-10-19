@@ -15,7 +15,7 @@ import {
   ReadingTimeWrapper,
 } from "./BlogPost.styles"
 
-const BlogPostCard = ({ slug, title, date, readingTime, excerpt, image }) => (
+const BlogPostCard = ({ slug, title, date, readingTime, excerpt, image,imageOne }) => (
   <CardWrapper>
     <ImgWrapper>
       <Img fluid={image} />
@@ -33,6 +33,8 @@ const BlogPostCard = ({ slug, title, date, readingTime, excerpt, image }) => (
           <img src={TimeIcon} alt="time" />
           {readingTime}
         </ReadingTimeWrapper>
+        <div>{imageOne}</div>
+       
       </StatWrapper>
       <p>{excerpt}</p>
     </TextWrapper>
